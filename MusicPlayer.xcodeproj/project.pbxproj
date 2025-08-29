@@ -10,9 +10,22 @@
 		8403B2B12E54158B00E40E78 /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		84298EC92E61E5170094DEDD /* Exceptions for "MusicPlayer" folder in "MusicPlayer" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				View/PlaylistDetails/AddPlaylistView.swift,
+			);
+			target = 8403B2B02E54158B00E40E78 /* MusicPlayer */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		8403B2B32E54158B00E40E78 /* MusicPlayer */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				84298EC92E61E5170094DEDD /* Exceptions for "MusicPlayer" folder in "MusicPlayer" target */,
+			);
 			path = MusicPlayer;
 			sourceTree = "<group>";
 		};
