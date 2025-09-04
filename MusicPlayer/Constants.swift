@@ -57,4 +57,10 @@ struct Constants {
                                      
                                      
     }
+    
+    struct ImageSize {
+        
+        static let playlistThumbnail = CGSize(width: 96, height: 64)
+        static let playlistHeroImage = CGSize(width: 368, height: 256)
+    }
 }

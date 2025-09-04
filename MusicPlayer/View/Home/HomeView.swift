@@ -107,7 +107,7 @@ struct PlaylistItemView: View {
                 Image(item.imageName)
                     .resizable()
                     .aspectRatio(contentMode: .fill)
-                    .frame(width: 96, height: 64)  // More proportional size
+                    .frame(width: 96, height: 64)
                     .clipShape(RoundedRectangle(cornerRadius: 12))
                     .clipped()
                 
